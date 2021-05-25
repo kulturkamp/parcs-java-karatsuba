@@ -18,7 +18,8 @@ public class Main {
 
         AMInfo info = new AMInfo(curtask, null);
         Scanner sc = new Scanner(new File(curtask.findFile("input.txt")));
-
+        System.out.println("input read");
+        
         int n = sc.nextInt();
         int m = sc.nextInt();
 
